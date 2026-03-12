@@ -42,6 +42,12 @@ main.hero .subtitle {
   margin: 0;
   font-size: 1.2rem;
   color: #2f4f7c;
+  max-width: 24rem;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(69, 123, 191, 0.2);
+  border-radius: 16px;
+  padding: 0.8rem 1rem;
+  box-shadow: 0 8px 16px rgba(47, 79, 121, 0.1);
 }
 
 main.hero .btn {
@@ -52,7 +58,9 @@ main.hero .btn {
   border-radius: 999px;
   font-size: 1rem;
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+  box-shadow: 0 8px 15px rgba(43, 108, 176, 0.25);
+  background-size: 200% 200%;
 }
 
 main.hero .btn:hover {
